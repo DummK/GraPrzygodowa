@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "description": "Wejdź głównym tunelem.",
+    "nextSceneId": 2
+  },
+  {
+    "id": 2,
+    "description": "Poszukaj sekretnego wejścia.",
+    "nextSceneId": 3
+  },
+  {
+    "id": 3,
+    "description": "Zbadaj legendy w mieście.",
+    "nextSceneId": 4
+  },
+
+  {
+    "id": 4,
+    "description": "Przejdź ostrożnie przez tunel.",
+    "nextSceneId": 5,
+    "stateEffect": "INJURED"
+  },
+  {
+    "id": 5,
+    "description": "Przebiegnij przez zawalony korytarz.",
+    "nextSceneId": 5,
+    "stateEffect": "INJURED"
+  },
+
+  {
+    "id": 6,
+    "description": "Otwórz sarkofag.",
+    "nextSceneId": 6,
+    "itemReward": "AMULET"
+  },
+  {
+    "id": 7,
+    "description": "Zostaw sarkofag w spokoju.",
+    "nextSceneId": 6
+  },
+
+  {
+    "id": 8,
+    "description": "Wejdź do podziemi przygotowany.",
+    "nextSceneId": 2,
+    "itemReward": "KNOWLEDGE"
+  },
+  {
+    "id": 9,
+    "description": "Zignoruj ostrzeżenia kronikarza.",
+    "nextSceneId": 2
+  },
+
+  {
+    "id": 10,
+    "description": "Oprzyj się szeptom.",
+    "nextSceneId": 7
+  },
+  {
+    "id": 11,
+    "description": "Przyjmij moc szeptów.",
+    "nextSceneId": 7,
+    "stateEffect": "CORRUPTED"
+  },
+
+  {
+    "id": 12,
+    "description": "Spróbuj negocjować ze Strażnikiem.",
+    "nextSceneId": 7,
+    "requiredItems": [1]
+  },
+  {
+    "id": 13,
+    "description": "Zaakceptuj próbę Strażnika.",
+    "nextSceneId": 7
+  },
+
+  {
+    "id": 14,
+    "description": "Zniszcz Serce Arken.",
+    "nextSceneId": null
+  },
+  {
+    "id": 15,
+    "description": "Użyj mocy dla miasta.",
+    "nextSceneId": null
+  },
+  {
+    "id": 16,
+    "description": "Użyj mocy dla siebie.",
+    "nextSceneId": null
+  },
+  {
+    "id": 17,
+    "description": "Oddaj artefakt Strażnikowi.",
+    "nextSceneId": null
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Odrodzenie",
+    "description": "Miasto wolne, ale energia znika",
+    "requiredState": ["NORMAL"]
+  },
+  {
+    "id": 2,
+    "title": "Reformator",
+    "description": "Miasto staje się silne, ale pod Twoją kontrolą.",
+    "requiredItems": ["KNOWLEDGE"]
+  },
+  {
+    "id": 3,
+    "title": "Tyran",
+    "description": "Przejmujesz władzę.",
+    "requiredState": ["CORRUPTED"]
+  },
+  {
+    "id": 4,
+    "title": "Strażnik",
+    "description": "Zostajesz częścią podziemi.",
+    "requiredState": ["CURSED"]
+  },
+  {
+    "id": 5,
+    "title": "Upadek",
+    "description": "Artefakt Cię niszczy.",
+    "requiredState": ["INJURED"]
+  }
+
+
+]

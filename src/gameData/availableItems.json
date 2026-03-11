@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Sigil Strażnika",
+    "description": "Czarny kamień z wyrytym pradawnym symbolem. Strażnik reaguje na jego obecność.",
+    "type": "AMULET"
+  },
+  {
+    "id": 2,
+    "name": "Kronika Upadłego Miasta",
+    "description": "Stary manuskrypt opisujący historię Serce Arken i jego prawdziwe działanie.",
+    "type": "KNOWLEDGE"
+  },
+  {
+    "id": 3,
+    "name": "Serce Arken",
+    "description": "Krystaliczny rdzeń pulsujący energią. Wzmacnia intencje swojego posiadacza.",
+    "type": "ARTIFACT"
+  }
+]

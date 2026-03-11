@@ -1,0 +1,7 @@
+{
+  "id": 0,
+  "title": "Wejście",
+  "description": "Znajdujesz zapieczętowane wejście",
+  "location": "ENTRANCE",
+  "choices": [0, 1, 2]
+}
