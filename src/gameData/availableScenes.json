@@ -1,7 +1,88 @@
-{
-  "id": 0,
-  "title": "Wejście",
-  "description": "Znajdujesz zapieczętowane wejście",
-  "location": "ENTRANCE",
-  "choices": [0, 1, 2]
-}
+[
+  {
+    "id": 1,
+    "title": "Przystanek PKP Zawada - Peron Widmo",
+    "description": "Wysiadasz z szynobusu, który skrzypiał, jakby jechał na smalcu. Jesteś na węźle kolejowym w Zawadzie. Tory rozchodzą się w cztery strony świata, a rdza na semaforach układa się w znaki ostrzegawcze. Czujesz zapach palonych liści od strony Zamościa.",
+    "location": "RAILWAY_STATION",
+    "choices": [2, 3],
+    "isEnding": false
+  },
+  {
+    "id": 2,
+    "title": "Blokada na Krajowej 74",
+    "description": "Chcesz przejść na drugą stronę wsi, ale DK74 to rzeka metalu. Sznur ciężarówek pędzi w stronę granicy. Powietrze wibruje od ryku silników. Musisz wykazać się sprytem, żeby nie zostać częścią asfaltu.",
+    "location": "MAIN_ROAD",
+    "choices": [4, 5],
+    "requiredItems": ["TRANSPORT"],
+    "isEnding": false
+  },
+  {
+    "id": 3,
+    "title": "Zasadzka w Wąwozie",
+    "description": "Skręciłeś w stronę lasu. Lessowe wąwozy wokół Zawady są głębokie i mroczne. Nagle zza korzeni wystaje lufa pistoletu na gwoździe. 'To nasz teren, miastowy' – słyszysz głos dochodzący z góry.",
+    "location": "WAVOZ",
+    "choices": [6, 7],
+    "requiredItems": ["WEAPON_LONG_RANGE"],
+    "isEnding": false
+  },
+  {
+    "id": 4,
+    "title": "Relikt w dawnym Kółku Rolniczym",
+    "description": "Wchodzisz na teren starej bazy maszynowej. W cieniu zardzewiałej wiaty stoi kombajn, który wygląda, jakby został opętany przez ducha starego traktorzysty. Z rury wydechowej wydobywa się rytmiczny dźwięk przypominający alfabet Morse’a.",
+    "location": "AGRO_BASE",
+    "choices": [8, 9],
+    "requiredItems": ["KEYS"],
+    "isEnding": false
+  },
+  {
+    "id": 5,
+    "title": "Odpustowy Szał przy Kościele",
+    "description": "Trafiłeś na lokalne święto. Stragany uginają się od pistoletów na kulki i waty cukrowej. Tłum gęstnieje, a Ty musisz odnaleźć łącznika, który ukrył się w kolejce po zapiekankę.",
+    "location": "CHURCH_SQUARE",
+    "choices": [10],
+    "requiredItems": ["MAGICAL"],
+    "isEnding": false
+  },
+  {
+    "id": 6,
+    "title": "Bitwa o Żwirownię",
+    "description": "Stoisz na krawędzi ogromnej dziury w ziemi. Na dnie żwirowni lokalne gangi taczkarzy urządzają nielegalne wyścigi. Musisz wygrać, by zyskać szacunek na dzielni.",
+    "location": "QUARRY",
+    "choices": [11, 12],
+    "requiredState": ["DETERMINED"],
+    "isEnding": false
+  },
+  {
+    "id": 7,
+    "title": "Nocne Manewry na Polach",
+    "description": "Ciemność nad Zawadą jest gęsta. Widzisz tylko światła latarek przeczesujące pole buraków. Ktoś szuka zaginionego słoika z tajemniczą zawartością. Musisz uważać, by nie wpaść w błoto.",
+    "location": "BEET_FIELDS",
+    "choices": [13, 14],
+    "requiredItems": ["ARMOR"],
+    "isEnding": false
+  },
+  {
+    "id": 8,
+    "title": "Finał pod tablicą 'Zamość 5 km'",
+    "description": "Jesteś na samej granicy wsi. Przed Tobą ostatnia prosta, ale drogę zagradza Ci Sołtys w pancerzu z blachy trapezowej, dzierżący Widły Piekielnego Gnoju. 'Z Zawady się nie wyjeżdża!' – krzyczy.",
+    "location": "VILLAGE_EXIT",
+    "choices": [15, 16],
+    "isEnding": false
+  },
+  {
+    "id": 9,
+    "title": "Zakończenie: Król Węzła",
+    "description": "Pokonałeś przeciwności i przejąłeś kontrolę nad węzłem kolejowym. Teraz każdy pociąg jadący na Roztocze musi Ci zasalutować syreną. Zostajesz tu jako legendarny władca Zawady.",
+    "location": "VILLAGE_CENTER",
+    "choices": [],
+    "isEnding": true
+  },
+  {
+    "id": 10,
+    "title": "Zakończenie: Wieczna Szychta",
+    "description": "Zostałeś złapany przez straż sąsiedzką i skazany na zbieranie stonki ziemniaczanej do końca świata. Czas w Zawadzie zatrzymał się, a Ty stałeś się częścią lokalnego krajobrazu.",
+    "location": "FIELDS",
+    "choices": [],
+    "isEnding": true
+  }
+]

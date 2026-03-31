@@ -1,20 +1,122 @@
 [
   {
     "id": 1,
-    "name": "Sigil Strażnika",
-    "description": "Czarny kamień z wyrytym pradawnym symbolem. Strażnik reaguje na jego obecność.",
-    "type": "AMULET"
+    "name": "Kosa Żniwiarz Nocy",
+    "description": "Ostrze tak ostre, że przecina czasoprzestrzeń i gacie sąsiada. Po naładowaniu błękitnym paliwem świeci w ciemności.",
+    "type": "WEAPON_MELEE"
   },
   {
     "id": 2,
-    "name": "Kronika Upadłego Miasta",
-    "description": "Stary manuskrypt opisujący historię Serce Arken i jego prawdziwe działanie.",
-    "type": "KNOWLEDGE"
+    "name": "Proca Snajper spod Remizy",
+    "description": "Wykonana z najmocniejszej gumy od gaci i gałęzi dębu, który widział niejedno. Strzela wszystkim, co wejdzie do koszyczka.",
+    "type": "WEAPON_LONG_RANGE"
   },
   {
     "id": 3,
-    "name": "Serce Arken",
-    "description": "Krystaliczny rdzeń pulsujący energią. Wzmacnia intencje swojego posiadacza.",
-    "type": "ARTIFACT"
+    "name": "Kamizelka Taktyczna 'Wędkarz'",
+    "description": "Posiada nieskończoną liczbę kieszeni. Chroni przed komarami i przypadkowymi ciosami sztachetą.",
+    "type": "ARMOR"
+  },
+  {
+    "id": 4,
+    "name": "Domowy Eliksir Mocy",
+    "description": "Napój o zapachu drożdży i sukcesu. Daje nadludzką siłę, ale sprawia, że postać widzi dwa razy więcej przeciwników.",
+    "type": "CONSUMABLES"
+  },
+  {
+    "id": 5,
+    "name": "Antena Siatkowa Przeznaczenia",
+    "description": "Wykrywa sygnały z innych wymiarów i pozwala na podsłuchiwanie myśli lokalnych zwierząt hodowlanych.",
+    "type": "MAGICAL"
+  },
+  {
+    "id": 6,
+    "name": "Tuningowana Taczka 'Turbo'",
+    "description": "Ma zamontowany silnik od kosiarki i spojler z dykty. Najszybszy sposób na transport gnoju i siebie.",
+    "type": "TRANSPORT"
+  },
+  {
+    "id": 7,
+    "name": "Klucz Płaski 32",
+    "description": "Otwiera każdą śrubę w traktorze i większość zablokowanych przejść, jeśli użyjesz go jako dźwigni.",
+    "type": "KEYS"
+  },
+  {
+    "id": 8,
+    "name": "Widły Piekielnego Gnoju",
+    "description": "Trzy zęby, z których każdy reprezentuje inny rodzaj bólu. Idealne do bliskich spotkań trzeciego stopnia.",
+    "type": "WEAPON_MELEE"
+  },
+  {
+    "id": 9,
+    "name": "Dmuchawa do Liści 'Cyklon'",
+    "description": "Przerobiona tak, by miotać płonącymi trocinami na dużą odległość. Robi niezły dym.",
+    "type": "WEAPON_LONG_RANGE"
+  },
+  {
+    "id": 10,
+    "name": "Gumiaki Izolacyjne +5",
+    "description": "Czarne, błyszczące i nieprzemakalne. Pozwalają chodzić po kwasie i kałużach pod napięciem.",
+    "type": "ARMOR"
+  },
+  {
+    "id": 11,
+    "name": "Pajda Chleba ze Smalcem",
+    "description": "Potężny posiłek regenerujący. Smalec jest tak gęsty, że zatrzymuje krwawienie i leczy rany duszy.",
+    "type": "CONSUMABLES"
+  },
+  {
+    "id": 12,
+    "name": "Pilot do Wszystkiego",
+    "description": "Stary pilot marki Rubin. Naciśnięcie przycisku 'AV' teleportuje gracza w losowe miejsce na mapie.",
+    "type": "MAGICAL"
+  },
+  {
+    "id": 13,
+    "name": "Wskrzeszona Motorynka",
+    "description": "Latający pojazd napędzany nostalgią i mieszanką paliwową. Często wybucha, ale zawsze dowozi na miejsce.",
+    "type": "TRANSPORT"
+  },
+  {
+    "id": 14,
+    "name": "Pęk Kluczy Sołtysa",
+    "description": "Ciężki pęk metalu, który daje dostęp do wszystkich budynków użyteczności publicznej w gminie.",
+    "type": "KEYS"
+  },
+  {
+    "id": 15,
+    "name": "Łańcuch od Krowy 'Goliard'",
+    "description": "Ciężki, rdzawy łańcuch służący jako bicz. Przy uderzeniu wydaje dźwięk nieszczęścia.",
+    "type": "WEAPON_MELEE"
+  },
+  {
+    "id": 16,
+    "name": "Pistolet na Gwoździe 'Zrób-To-Sam'",
+    "description": "Zasilany sprężarką ukrytą w plecaku. Przebija deski, blachy i argumenty sąsiada.",
+    "type": "WEAPON_LONG_RANGE"
+  },
+  {
+    "id": 17,
+    "name": "Hełm z Miednicy",
+    "description": "Ocynkowana ochrona głowy. Idealnie odbija promienie słoneczne i uderzenia tępym narzędziem.",
+    "type": "ARMOR"
+  },
+  {
+    "id": 18,
+    "name": "Magiczny Ogórek Kiszony",
+    "description": "Jeden kęs usuwa wszelkie klątwy, zatrucia i egzystencjalny smutek.",
+    "type": "CONSUMABLES"
+  },
+  {
+    "id": 19,
+    "name": "Kryształowy Słoik z Prądem",
+    "description": "W środku zamknięta jest błyskawica złapana podczas żniw w 98 roku. Razi każdego wroga w pobliżu.",
+    "type": "MAGICAL"
+  },
+  {
+    "id": 20,
+    "name": "Rower 'Składak' Wyklęty",
+    "description": "Skrzypi tak głośno, że paraliżuje strachem wrogów. Rozpędza się do prędkości światła na zjazdach.",
+    "type": "TRANSPORT"
   }
 ]
