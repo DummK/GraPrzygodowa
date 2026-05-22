@@ -1,99 +1,97 @@
 [
   {
     "id": 1,
-    "description": "Wejdź głównym tunelem.",
-    "nextSceneId": 2
+    "description": "Wyjdź na peron i sprawdź tablicę odjazdów. Może jest jeszcze jakiś pociąg powrotny.",
+    "nextSceneId": 1
   },
   {
     "id": 2,
-    "description": "Poszukaj sekretnego wejścia.",
-    "nextSceneId": 3
+    "description": "Idź w stronę Drogi Krajowej 74. Słyszysz stamtąd ryk silników diesla i coś, co brzmi jak szansa.",
+    "nextSceneId": 2
   },
   {
     "id": 3,
-    "description": "Zbadaj legendy w mieście.",
-    "nextSceneId": 4
+    "description": "Skręć za stodołą w lewo – w ciemny wlot lessowego wąwozu. Cicho tam i podejrzanie spokojnie.",
+    "nextSceneId": 3
   },
-
   {
     "id": 4,
-    "description": "Przejdź ostrożnie przez tunel.",
-    "nextSceneId": 5,
-    "stateEffect": "INJURED"
+    "description": "Wyjedź pojazdem prosto na przejście dla pieszych i zablokuj ruch. Tiry staną, w chaosie przejdziesz.",
+    "nextSceneId": 4,
+    "requiredItems": ["TRANSPORT"]
   },
   {
     "id": 5,
-    "description": "Przebiegnij przez zawalony korytarz.",
+    "description": "Wciśnij się pieszo między naczepami, jakbyś stąd był. Kierowcy nie trącają swoich.",
     "nextSceneId": 5,
     "stateEffect": "INJURED"
   },
-
   {
     "id": 6,
-    "description": "Otwórz sarkofag.",
+    "description": "Wyceluj bronią dalekiego zasięgu w górę wąwozu i poinformuj głosy, że zmieniły się warunki negocjacji.",
     "nextSceneId": 6,
-    "itemReward": "AMULET"
+    "requiredItems": ["WEAPON_LONG_RANGE"]
   },
   {
     "id": 7,
-    "description": "Zostaw sarkofag w spokoju.",
-    "nextSceneId": 6
+    "description": "Zacznij mówić o cenach nawozów azotowych i prognozie opadów na żniwa. Lokalni zastygnąi wejdziesz spokojnie.",
+    "nextSceneId": 7,
+    "stateEffect": "DETERMINED"
   },
-
   {
     "id": 8,
-    "description": "Wejdź do podziemi przygotowany.",
-    "nextSceneId": 2,
-    "itemReward": "KNOWLEDGE"
+    "description": "Otwórz kabinę kombajnu kluczem. Przyszedłeś po prawdę, nie po zdjęcia.",
+    "nextSceneId": 8,
+    "requiredItems": ["KEYS"],
+    "itemReward": "WEAPON_MELEE"
   },
   {
     "id": 9,
-    "description": "Zignoruj ostrzeżenia kronikarza.",
-    "nextSceneId": 2
+    "description": "Połóż ucho na blasze i rozkoduj stukot z rury wydechowej. Stary Bizon ma Ci coś do powiedzenia.",
+    "nextSceneId": 9,
+    "stateEffect": "DETERMINED"
   },
-
   {
     "id": 10,
-    "description": "Oprzyj się szeptom.",
-    "nextSceneId": 7
+    "description": "Aktywuj magiczny przedmiot. W tłumie odpustowym tylko nadnaturalne zmysły odróżnią łącznika od zwykłego zjadacza zapiekanek.",
+    "nextSceneId": 10,
+    "requiredItems": ["MAGICAL"]
   },
   {
     "id": 11,
-    "description": "Przyjmij moc szeptów.",
-    "nextSceneId": 7,
-    "stateEffect": "CORRUPTED"
+    "description": "Wyciągnij pojazd na dno żwirowni i stań do wyścigu. Zwycięstwo albo gleba – tertium non datur.",
+    "nextSceneId": 8,
+    "requiredItems": ["TRANSPORT"]
   },
-
   {
     "id": 12,
-    "description": "Spróbuj negocjować ze Strażnikiem.",
-    "nextSceneId": 7,
-    "requiredItems": [1]
+    "description": "Zrzuć na taczkarzy kamień z krawędzi skarpy i zaproponuj pokojowe negocjacje z pozycji góry.",
+    "nextSceneId": 8,
+    "stateEffect": "DETERMINED"
   },
   {
     "id": 13,
-    "description": "Zaakceptuj próbę Strażnika.",
-    "nextSceneId": 7
+    "description": "Zakładasz zbroję, kładziesz się między rzędami buraków i czołgujesz w stronę słoika niewidzialny jak traktor bez świateł.",
+    "nextSceneId": 8,
+    "requiredItems": ["ARMOR"],
+    "itemReward": "MAGICAL"
   },
-
   {
     "id": 14,
-    "description": "Zniszcz Serce Arken.",
-    "nextSceneId": null
+    "description": "Odpalasz Dmuchawę do Liści na pełny regulator. Płonące trociny oświetlają pole. Efekt jest spektakularny i natychmiastowy.",
+    "nextSceneId": 8,
+    "stateEffect": "INJURED"
   },
   {
     "id": 15,
-    "description": "Użyj mocy dla miasta.",
-    "nextSceneId": null
+    "description": "Chwytasz broń białą i ruszasz na Sołtysa. Widły contra Kosa. Stare jak Zawada starcie.",
+    "nextSceneId": 9,
+    "requiredItems": ["WEAPON_MELEE"]
   },
   {
     "id": 16,
-    "description": "Użyj mocy dla siebie.",
-    "nextSceneId": null
-  },
-  {
-    "id": 17,
-    "description": "Oddaj artefakt Strażnikowi.",
-    "nextSceneId": null
+    "description": "Rzucasz Sołtysowi Pajdę Chleba ze Smalcem. Gdy pada na kolana i zaczyna jeść, przekraczasz granicę wsi truchtem.",
+    "nextSceneId": 10,
+    "requiredItems": ["CONSUMABLES"]
   }
 ]

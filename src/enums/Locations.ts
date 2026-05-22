@@ -1,9 +1,12 @@
 export enum Locations {
-    ENTRANCE = "ENTRANCE",
-    MAIN_TUNNEL = "MAIN_TUNNEL",
-    CRYPT = "CRYPT",
-    LIBRARY = "LIBRARY",
-    MIRROR_CHAMBER = "MIRROR_CHAMBER",
-    GUARDIAN_HALL = "GUARDIAN_HALL",
-    HEART_OF_CITY = "HEART_OF_CITY"
+    RAILWAY_STATION = "RAILWAY_STATION",   // Peron PKP Zawada
+    MAIN_ROAD = "MAIN_ROAD",              // DK74 Zamość–Kraśnik
+    WAWOZ = "WAWOZ",                      // Lessowy wąwóz za wsią
+    AGRO_BASE = "AGRO_BASE",              // Baza maszynowa Kółka Rolniczego
+    CHURCH_SQUARE = "CHURCH_SQUARE",      // Plac odpustowy przy kościele
+    QUARRY = "QUARRY",                    // Żwirownia przy Łabuńce
+    BEET_FIELDS = "BEET_FIELDS",          // Nocne pola buraczane
+    VILLAGE_EXIT = "VILLAGE_EXIT",        // Tablica „Zawada / Zamość 5 km"
+    VILLAGE_CENTER = "VILLAGE_CENTER",    // Centrum wsi, słup ogłoszeń
+    FIELDS = "FIELDS"                     // Otwarte pola, horyzont i gnój
 }

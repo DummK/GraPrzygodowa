@@ -2,121 +2,127 @@
   {
     "id": 1,
     "name": "Kosa Żniwiarz Nocy",
-    "description": "Ostrze tak ostre, że przecina czasoprzestrzeń i gacie sąsiada. Po naładowaniu błękitnym paliwem świeci w ciemności.",
+    "description": "Ostrze wykute przez kowala z Bondyrza, który podobno nigdy nie spał. Przecina czas, przestrzeń i plot sąsiada. Po naładowaniu błękitnym paliwem ze stacji w Zawadzie świeci w ciemności i pachnie naftą.",
     "type": "WEAPON_MELEE"
   },
   {
     "id": 2,
     "name": "Proca Snajper spod Remizy",
-    "description": "Wykonana z najmocniejszej gumy od gaci i gałęzi dębu, który widział niejedno. Strzela wszystkim, co wejdzie do koszyczka.",
+    "description": "Wykonana z gumy ściągniętej z kół taczki i gałęzi dębu rosnącego przy świetlicy od 1967 roku. Strzela wszystkim co wejdzie do koszyczka – gwoździami, żołędziami i zakrętkami od butelek kaucyjnych.",
     "type": "WEAPON_LONG_RANGE"
   },
   {
     "id": 3,
     "name": "Kamizelka Taktyczna 'Wędkarz'",
-    "description": "Posiada nieskończoną liczbę kieszeni. Chroni przed komarami i przypadkowymi ciosami sztachetą.",
+    "description": "Szesnaście kieszeni zewnętrznych i cztery tajne. W każdej coś zostało od poprzedniego właściciela. Chroni przed komarami znad Łabuńki i przypadkowymi ciosami sztachetą podczas zebrania wiejskiego.",
     "type": "ARMOR"
   },
   {
     "id": 4,
     "name": "Domowy Eliksir Mocy",
-    "description": "Napój o zapachu drożdży i sukcesu. Daje nadludzką siłę, ale sprawia, że postać widzi dwa razy więcej przeciwników.",
+    "description": "Butelka kaucyjna 0,5l wypełniona płynem o zapachu drożdży, ambicji i złych decyzji. Daje nadludzką siłę na 20 minut, ale przez resztę wieczoru postać widzi dwa razy więcej przeciwników niż jest.",
     "type": "CONSUMABLES"
   },
   {
     "id": 5,
-    "name": "Antena Siatkowa Przeznaczenia",
-    "description": "Wykrywa sygnały z innych wymiarów i pozwala na podsłuchiwanie myśli lokalnych zwierząt hodowlanych.",
+    "name": "Antena Satelitarna 'Wschodnia'",
+    "description": "Ściągnięta ze strychu u Jurka, nakierowana ręcznie na satelitę który dawno zmienił orbitę. Wykrywa sygnały z okolicznych zagród i pozwala podsłuchiwać myśli krów z pobliskiej obory. Bateria trzyma do zachodu słońca.",
     "type": "MAGICAL"
   },
   {
     "id": 6,
     "name": "Tuningowana Taczka 'Turbo'",
-    "description": "Ma zamontowany silnik od kosiarki i spojler z dykty. Najszybszy sposób na transport gnoju i siebie.",
+    "description": "Silnik od kosiarki Stiga, spojler z dykty, tapicerka z worka jutowego. Najszybszy transport gnoju i siebie w promieniu 22-400 Zamość. Na zjazdach przy żwirowni osiąga prędkości niezgodne z prawem gminy.",
     "type": "TRANSPORT"
   },
   {
     "id": 7,
     "name": "Klucz Płaski 32",
-    "description": "Otwiera każdą śrubę w traktorze i większość zablokowanych przejść, jeśli użyjesz go jako dźwigni.",
+    "description": "Otwiera każdą śrubę w kombajnie Bizon i każdy zamek, który miał pecha być słabszy od stalowego klucza używanego jako dźwignia. Nosi ślady trzech pokoleń traktorzystów.",
     "type": "KEYS"
   },
   {
     "id": 8,
     "name": "Widły Piekielnego Gnoju",
-    "description": "Trzy zęby, z których każdy reprezentuje inny rodzaj bólu. Idealne do bliskich spotkań trzeciego stopnia.",
+    "description": "Trzy zęby nierówno hartowane w ogniu z pola przy Łabuńce. Każdy ząb reprezentuje inny rodzaj bólu. Idealny do spotkań w odległości ramienia i do przekładania tego, czego lepiej nie dotykać gołą ręką.",
     "type": "WEAPON_MELEE"
   },
   {
     "id": 9,
     "name": "Dmuchawa do Liści 'Cyklon'",
-    "description": "Przerobiona tak, by miotać płonącymi trocinami na dużą odległość. Robi niezły dym.",
+    "description": "Przerobiona przez nieznanego geniusza z Zawady tak, by miotała płonącymi trocinami na odległość dziesięciu metrów. Robi efektowny dym widoczny z drogi krajowej i zapach przez trzy doby.",
     "type": "WEAPON_LONG_RANGE"
   },
   {
     "id": 10,
     "name": "Gumiaki Izolacyjne +5",
-    "description": "Czarne, błyszczące i nieprzemakalne. Pozwalają chodzić po kwasie i kałużach pod napięciem.",
+    "description": "Czarne, błyszczące, rozmiar 44 choć nie wiadomo dlaczego. Pozwalają bezkarnie wchodzić w kałuże pod napięciem, gnojówkę po pas i kwas akumulatorowy. Sołtys ma takie same, co jest niepokojące.",
     "type": "ARMOR"
   },
   {
     "id": 11,
     "name": "Pajda Chleba ze Smalcem",
-    "description": "Potężny posiłek regenerujący. Smalec jest tak gęsty, że zatrzymuje krwawienie i leczy rany duszy.",
+    "description": "Chleb wiejski z pieca u Miśkiewiczów, smalec ze słoika po ogórkach, szczypiorek z ogródka. Smalec jest tak gęsty, że tamuje krwawienie, leczy rany duszy i na pięć minut daje poczucie, że wszystko będzie dobrze.",
     "type": "CONSUMABLES"
   },
   {
     "id": 12,
     "name": "Pilot do Wszystkiego",
-    "description": "Stary pilot marki Rubin. Naciśnięcie przycisku 'AV' teleportuje gracza w losowe miejsce na mapie.",
+    "description": "Stary pilot marki Rubin, który zmienił właściciela przy skupie złomu. Przyciski 1–9 zmieniają kanały u sąsiadów w promieniu 50 metrów. Przycisk AV teleportuje gracza w losowe miejsce na mapie gminy. Używaj odpowiedzialnie.",
     "type": "MAGICAL"
   },
   {
     "id": 13,
     "name": "Wskrzeszona Motorynka",
-    "description": "Latający pojazd napędzany nostalgią i mieszanką paliwową. Często wybucha, ale zawsze dowozi na miejsce.",
+    "description": "Simson SR50 napędzany nostalgią i mieszanką paliwową z kanistra bez etykiety. Lata nisko nad drogami gminnymi. Często wybucha przy DK74, ale zawsze jakoś dowozi. Pachnie jak lato 1993.",
     "type": "TRANSPORT"
   },
   {
     "id": 14,
     "name": "Pęk Kluczy Sołtysa",
-    "description": "Ciężki pęk metalu, który daje dostęp do wszystkich budynków użyteczności publicznej w gminie.",
+    "description": "Osiemnaście kluczy na kółku od roweru. Otwierają świetlicę wiejską, hydroforownię, szlaban przy żwirowni i trzy bramy, których nikt już nie pamięta po co zbudowano. Ciężki jak mandat z gminy.",
     "type": "KEYS"
   },
   {
     "id": 15,
     "name": "Łańcuch od Krowy 'Goliard'",
-    "description": "Ciężki, rdzawy łańcuch służący jako bicz. Przy uderzeniu wydaje dźwięk nieszczęścia.",
+    "description": "Cztery metry rdzy i ambicji. Goliard był najsilniejszą krową w powiecie zamojskim i łańcuch to pamięta. Przy każdym uderzeniu wydaje dźwięk głębokiego, rolniczego nieszczęścia.",
     "type": "WEAPON_MELEE"
   },
   {
     "id": 16,
     "name": "Pistolet na Gwoździe 'Zrób-To-Sam'",
-    "description": "Zasilany sprężarką ukrytą w plecaku. Przebija deski, blachy i argumenty sąsiada.",
+    "description": "Zasilany sprężarką ukrytą w plecaku po szkole rolniczej. Przebija deski dwucalowe, blachy faliste i argumenty sąsiada o granicy działki. Głośny jak Zawada w niedzielę po sumie.",
     "type": "WEAPON_LONG_RANGE"
   },
   {
     "id": 17,
     "name": "Hełm z Miednicy",
-    "description": "Ocynkowana ochrona głowy. Idealnie odbija promienie słoneczne i uderzenia tępym narzędziem.",
+    "description": "Ocynkowana miednica nr 3 z dziurą na głowę wyciętą wyrzynarką. Idealnie odbija promienie słońca lubelskiego i uderzenia tępym narzędziem. Sołtys widząc go drżał, choć oficjalnie zaprzecza.",
     "type": "ARMOR"
   },
   {
     "id": 18,
     "name": "Magiczny Ogórek Kiszony",
-    "description": "Jeden kęs usuwa wszelkie klątwy, zatrucia i egzystencjalny smutek.",
+    "description": "Ze słoika zakręconego latem 1998, rok wielkiej suszy i wielkich ogórków. Jeden kęs usuwa klątwy, zatrucia i egzystencjalny smutek na 24 godziny. Sok leczy oparzenia. Nie wylewaj soku.",
     "type": "CONSUMABLES"
   },
   {
     "id": 19,
     "name": "Kryształowy Słoik z Prądem",
-    "description": "W środku zamknięta jest błyskawica złapana podczas żniw w 98 roku. Razi każdego wroga w pobliżu.",
+    "description": "W środku zamknięta błyskawica złapana podczas żniw '98 przez starego Mietka z Zawady, który o tym nigdy nie mówił. Razi każdego wroga w promieniu trzech metrów. Po użyciu pachnie bursztynowo i ziemią po deszczu.",
     "type": "MAGICAL"
   },
   {
     "id": 20,
     "name": "Rower 'Składak' Wyklęty",
-    "description": "Skrzypi tak głośno, że paraliżuje strachem wrogów. Rozpędza się do prędkości światła na zjazdach.",
+    "description": "Składak z 1974, rozmiar ramy nieustalony, hamulce działają co drugi dzień. Skrzypi tak przeraźliwie, że wrogowie zamierają ze strachu. Na zjazdach przy drodze na Zamość osiąga prędkości niebezpieczne dla wszystkich stron.",
     "type": "TRANSPORT"
+  },
+  {
+    "id": 21,
+    "name": "Wytrych z Drutu Kolczastego",
+    "description": "Skręcony z drutu ściągniętego z ogrodzenia przy starej oborze. Otwiera kłódki, bramy, szlabany i zamknięte rozdziały lokalnej historii. Każdy w Zawadzie robi takie, nikt się do tego nie przyznaje.",
+    "type": "KEYS"
   }
 ]

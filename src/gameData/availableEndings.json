@@ -1,34 +1,32 @@
 [
   {
     "id": 1,
-    "title": "Odrodzenie",
-    "description": "Miasto wolne, ale energia znika",
-    "requiredState": ["NORMAL"]
+    "title": "Legenda z Zawady",
+    "description": "Twoje imię krąży po gminie szybciej niż plotka o nowym sołtysie. Każda babcia przy GS-ie wie, co zrobiłeś. Słup ogłoszeniowy przy kościele wita Cię własnoręcznie napisanym afiszem. Zostajesz. Zawada postanowiła Cię zaakceptować, co w praktyce oznacza, że możesz teraz zbierać butelki kaucyjne bez pytania o pozwolenie.",
+    "requiredState": ["DETERMINED"]
   },
   {
     "id": 2,
-    "title": "Reformator",
-    "description": "Miasto staje się silne, ale pod Twoją kontrolą.",
-    "requiredItems": ["KNOWLEDGE"]
+    "title": "Nowy Sołtys Gminy Zawada",
+    "description": "Pęk kluczy zmienił właściciela. Teraz Ty otwierasz świetlicę, Ty blokujesz wniosek o nową drogę i Ty decydujesz, że gnojownia Kowalskiego stoi za blisko granicy działki. Władza w Zawadzie smakuje jak barszcz ze słoika – domowo i nie do końca legalnie.",
+    "requiredItems": ["KEYS"]
   },
   {
     "id": 3,
-    "title": "Tyran",
-    "description": "Przejmujesz władzę.",
-    "requiredState": ["CORRUPTED"]
+    "title": "Uciec do Zamościa",
+    "description": "Wymknąłeś się przez pole rzepaku przed świtem, gdy Zawada jeszcze spała. Na rogatkach Zamościa zatrzymałeś się i odetchnąłeś. Wolność pachnie spalinami i kebabem z okienka przy Starym Mieście. W kieszeni masz jedną butelkę kaucyjną na pamiątkę. Czasem śni Ci się stukot kombajnu.",
+    "requiredItems": ["TRANSPORT"]
   },
   {
     "id": 4,
-    "title": "Strażnik",
-    "description": "Zostajesz częścią podziemi.",
-    "requiredState": ["CURSED"]
+    "title": "Wchłonięty przez Wieś",
+    "description": "Rany były zbyt głębokie – nie te od wideł, te od Zawady. Zostałeś. Masz teraz kawałek pola przy Łabuńce, trochę gnoju i sąsiadów, którzy wiedzą o Tobie wszystko. Butelki kaucyjne same zaczęły się zbierać przy płocie. Nie pytasz dlaczego.",
+    "requiredState": ["INJURED"]
   },
   {
     "id": 5,
-    "title": "Upadek",
-    "description": "Artefakt Cię niszczy.",
-    "requiredState": ["INJURED"]
+    "title": "Skażony Lokalnym Klimatem",
+    "description": "Coś w Tobie zmieniło się na polach przy Zawadzie. Mówisz teraz przez nos, wiesz co znaczy 'wybiórka' i kłócisz się o cenę skupu buraków z obcymi. Zamość patrzy na Ciebie podejrzliwie. Zawada patrzy z uznaniem. Nie wiesz już, z której strony tablicy stoisz.",
+    "requiredState": ["CORRUPTED"]
   }
-
-
 ]

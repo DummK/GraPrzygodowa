@@ -48,12 +48,27 @@ for (const choiceJSON of Choices) {
         description: choiceJSON.description,
         nextSceneId: choiceJSON.nextSceneId ?? undefined,
         stateEffect: choiceJSON.stateEffect as PlayerState ?? undefined,
-        itemReward: choiceJSON.itemReward as ItemType ?? undefined,
-        requiredState: choiceJSON.requiredState
+        itemReward: choiceJSON.itemReward as ItemType ?? undefined
     }
 
-    ENDINGS.push(tempObj);
+    CHOICES.push(tempObj);
 }
+for (const sceneJSON of Scenes) {
+    const tempObj: Scene = {
+        id: sceneJSON.id,
+        title: sceneJSON.title,
+        description: sceneJSON.description,
+        location: sceneJSON.location as Locations,
+        choices: sceneJSON.choices,
+        requiredState: sceneJSON.requiredState as PlayerState[] ?? undefined,
+        requiredItems: sceneJSON.requiredItems as ItemType[] ?? undefined,
+        isEnding: sceneJSON.isEnding ?? undefined,
+    }
+
+    SCENES.push(tempObj);
+}
+
+
 
 class Game {
     constructor(
