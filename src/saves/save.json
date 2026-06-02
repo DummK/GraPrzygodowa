@@ -1,0 +1,23 @@
+{
+  "player": {
+    "name": "Cwel",
+    "states": [
+      "NORMAL"
+    ],
+    "inventory": [
+      2
+    ],
+    "currentSceneId": 3
+  },
+  "points": 45,
+  "visitedScenes": [
+    1,
+    3
+  ],
+  "sceneHistory": [
+    1
+  ],
+  "usedChoices": [
+    3
+  ]
+}

@@ -1,5 +1,7 @@
 export enum PlayerState {
     NORMAL = "NORMAL",
     INJURED = "INJURED",
-    CORRUPTED = "CORRUPTED"
+    CORRUPTED = "CORRUPTED",
+    CURSED = "CURSED",
+    DETERMINED = "DETERMINED"
 }

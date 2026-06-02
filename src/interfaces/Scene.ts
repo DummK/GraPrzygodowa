@@ -8,7 +8,6 @@ export interface Scene {
     description: string;
     location: Locations;
     choices: number[];          // ID wyborów
-    requiredState?: PlayerState[];
     requiredItems?: ItemType[];
     isEnding?: boolean;
 }

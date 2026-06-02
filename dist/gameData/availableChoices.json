@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "title": "Cisza przed burzą",
+        "description": "Siedziałeś przed telewizorem, gdy nagle obraz zgasł, a lodówka przestała mruczeć. W ułamku sekundy Twój dom w Zawadzie wypełniła gęsta, niemal namacalna ciemność. Za oknem nie słychać psów, nie słychać samochodów na 'siedemdziesiątce czwórce'. Jest tak cicho, że słyszysz własne tętno w uszach. Musisz znaleźć jakieś światło.",
+        "location": "DOM",
+        "choices": [1, 2, 3]
+    },
+    {
+        "id": 2,
+        "title": "Przeszukiwanie mroku",
+        "description": "Twoje dłonie błądzą po chłodnych blatach kuchennych, potykasz się o krzesło, którego przecież tu nie było. Każdy szelest wydaje się teraz nienaturalnie głośny. Po chwili Twoje palce zaciskają się na czymś metalowym i zimnym – to może być klucz do przetrwania tej nocy.",
+        "location": "DOM",
+        "choices": [3]
+    },
+    {
+        "id": 3,
+        "title": "Próg rzeczywistości",
+        "description": "Wychodzisz na podwórko. Powietrze jest rześkie, pachnie dymem z jakiegoś odległego komina i wilgotną ziemią Roztocza. Nad Zawadą rozciąga się niebo tak czyste, że droga mleczna niemal oślepia – co jest dziwne, bo przecież mamy pełnię lata. Światła uliczne wzdłuż drogi są martwe, a wioska wygląda jak opuszczona scenografia filmowa.",
+        "location": "PODWORKO",
+        "choices": [4, 5, 6]
+    },
+    {
+        "id": 4,
+        "title": "Trakt Zamojski",
+        "description": "Stoisz na poboczu Drogi Krajowej 74. Asfalt, zwykle tętniący życiem i ryczący silnikami ciężarówek, teraz jest pusty i obcy. W oddali, w stronę Zamościa, widzisz kilka porzuconych samochodów z otwartymi drzwiami. Pod lokalnym sklepem dostrzegasz słabe, migoczące światło latarek – ktoś tam jest.",
+        "location": "DROGA_74",
+        "choices": [7, 8]
+    },
+    {
+        "id": 5,
+        "title": "Bezdroża i cienie",
+        "description": "Postanawiasz ominąć asfalt i ruszyć przez pola. Wysoka kukurydza szeleści przy każdym Twoim kroku, a cienie rzucane przez księżyc wydają się zbyt długie. Czujesz, jak pot spływa Ci po karku – to nie zmęczenie, to instynkt mówi Ci, że coś w tej ciemności jest nie tak.",
+        "location": "POLA",
+        "choices": [4],
+        "stateEffect": "EXHAUSTED"
+    },
+    {
+        "id": 6,
+        "title": "Mrok Lasu Żaluże",
+        "description": "Las pod Zawadą zawsze był przyjazny, ale dziś sosny zdają się zacieśniać wokół Ciebie. Światło Twojej latarki tnie ciemność jak nóż. Nagle w snopie światła dostrzegasz metaliczny błysk – w rowie leży przewrócony rower. Koło wciąż cicho się kręci, jakby właściciel przed chwilą stąd uciekł.",
+        "location": "LAS",
+        "choices": [10],
+        "itemRewardId": 5
+    },
+    {
+        "id": 7,
+        "title": "Pod Sklepem Spożywczym",
+        "description": "Przy schodkach sklepu zebrała się garstka ludzi. Ich twarze, oświetlone jedynie blaskiem papierosów, są blade i pełne niedowierzania. 'Nie ma zasięgu', 'Radio milczy', 'Nawet agregat u sołtysa nie odpala' – słyszysz urywki rozmów. Wszyscy patrzą na Ciebie, czekając, aż ktoś wreszcie podejmie jakąś decyzję.",
+        "location": "SKLEP",
+        "choices": [9, 10]
+    },
+    {
+        "id": 8,
+        "title": "Ostatni bastion",
+        "description": "Ciężkie drzwi Remizy ustępują z jękiem. W środku pachnie smarem i starą gumą. Kiedy wlewasz paliwo i szarpiesz za linkę agregatu, silnik krztusi się, spluwa dymem i wreszcie ożywa. Świetlówki pod sufitem migają i zapalają się jasnym, sterylnym światłem. Przez okno widzisz, jak ludzie ze wsi ruszają w stronę tego blasku. Przynajmniej na razie jesteście bezpieczni.",
+        "location": "REMIZA",
+        "choices": [],
+        "isEnding": true
+    },
+    {
+        "id": 9,
+        "title": "W stronę nieznanego",
+        "description": "Pedałujesz ile sił w nogach, zostawiając tabliczkę z napisem 'Zawada' za plecami. Droga wije się pod górę, a las po obu stronach wydaje się nie mieć końca. Nie wiesz, co czeka Cię dalej, ale instynkt podpowiada Ci, że powrót do domu nie jest już możliwy. Jesteś sam w mroku, który ogarnął świat.",
+        "location": "DROGA_74",
+        "choices": [],
+        "isEnding": true
+    }
+]

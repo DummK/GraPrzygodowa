@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Latarka 'Szperacz'",
+        "description": "Mocna latarka, niezbędna w lesie.",
+        "type": "QUEST_ITEM"
+    },
+    {
+        "id": 2,
+        "name": "Siekiera Fiskars",
+        "description": "Ostra i lekka. Dobra do torowania przejść.",
+        "type": "WEAPON"
+    },
+    {
+        "id": 3,
+        "name": "Konserwa Turystyczna",
+        "description": "Daje siłę na kilka godzin marszu.",
+        "type": "CONSUMABLES"
+    },
+    {
+        "id": 4,
+        "name": "Gruba Kurtka",
+        "description": "Chroni przed nocnym chłodem Roztocza.",
+        "type": "CLOTHING"
+    },
+    {
+        "id": 5,
+        "name": "Stary Rower",
+        "description": "Składak, którym dojedziesz dalej niż pieszo.",
+        "type": "TRANSPORT"
+    },
+    {
+        "id": 6,
+        "name": "Klucze do Remizy",
+        "description": "Ciężki pęk kluczy od lokalnego centrum dowodzenia.",
+        "type": "QUEST_ITEM"
+    }
+]

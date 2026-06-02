@@ -1,0 +1,89 @@
+[
+    {
+        "id": 1,
+        "title": "Dom w Zawadzie",
+        "description": "Nagle zgasły wszystkie światła. Telewizor zamilkł. W całej Zawadzie panuje nienaturalna cisza.",
+        "location": "DOM",
+        "choices": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Przygotowania",
+        "description": "Zebrałeś to, co mogło się przydać. Czas sprawdzić, co dzieje się u sąsiadów.",
+        "location": "DOM",
+        "choices": [
+            3
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Podwórko",
+        "description": "Gwiazdy na niebie wydają się zbyt jasne. Nie słychać żadnego samochodu z pobliskiej krajówki.",
+        "location": "PODWORKO",
+        "choices": [
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Droga Krajowa 74",
+        "description": "Asfalt jest pusty, ale widzisz światła pod lokalnym sklepem.",
+        "location": "DROGA_74",
+        "choices": [
+            7,
+            8
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Pola pod Zawadą",
+        "description": "Idąc przez pola, zauważasz dziwne światła nad lasem. Zaczynasz się męczyć.",
+        "location": "POLA",
+        "choices": [
+            4
+        ],
+        "stateEffect": "EXHAUSTED"
+    },
+    {
+        "id": 6,
+        "title": "Las Żaluże",
+        "description": "Dzięki latarce widzisz ścieżkę. Znajdujesz tu porzucony rower.",
+        "location": "LAS",
+        "choices": [
+            10
+        ],
+        "itemRewardId": 5
+    },
+    {
+        "id": 7,
+        "title": "Sklep Spożywczy",
+        "description": "Sąsiedzi są przerażeni. Ktoś musi przejąć inicjatywę i otworzyć Remizę.",
+        "location": "SKLEP",
+        "choices": [
+            9,
+            10
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Remiza OSP",
+        "description": "Udało się! Agregat ruszył. Światło w Remizie staje się latarnią dla całej okolicy.",
+        "location": "REMIZA",
+        "choices": [],
+        "isEnding": true
+    },
+    {
+        "id": 9,
+        "title": "Granica Zawady",
+        "description": "Wyjeżdżasz z wioski. Przed Tobą tylko ciemna ściana lasu i nieznane.",
+        "location": "DROGA_74",
+        "choices": [],
+        "isEnding": true
+    }
+]

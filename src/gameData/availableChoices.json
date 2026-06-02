@@ -1,90 +1,97 @@
 [
   {
     "id": 1,
-    "description": "Wyjdź na peron i sprawdź tablicę odjazdów. Może jest jeszcze jakiś pociąg powrotny.",
-    "nextSceneId": 1
+    "description": "Przeszukaj ławki i krawędź peronu – podróżni zostawiają różne rzeczy przy torach.",
+    "nextSceneId": 1,
+    "itemReward": "TRANSPORT"
   },
   {
     "id": 2,
-    "description": "Idź w stronę Drogi Krajowej 74. Słyszysz stamtąd ryk silników diesla i coś, co brzmi jak szansa.",
-    "nextSceneId": 2
+    "description": "Idź w stronę Drogi Krajowej 74. Przy torach leży wytrych z drutu. Bierzesz go.",
+    "nextSceneId": 2,
+    "itemReward": "KEYS"
   },
   {
     "id": 3,
-    "description": "Skręć za stodołą w lewo – w ciemny wlot lessowego wąwozu. Cicho tam i podejrzanie spokojnie.",
-    "nextSceneId": 3
+    "description": "Skręć za stodołą w lewo – w ciemny wlot lessowego wąwozu. W krzakach wisi stara proca.",
+    "nextSceneId": 3,
+    "itemReward": "WEAPON_LONG_RANGE"
   },
   {
     "id": 4,
-    "description": "Wyjedź pojazdem prosto na przejście dla pieszych i zablokuj ruch. Tiry staną, w chaosie przejdziesz.",
+    "description": "Wyjedź pojazdem na przejście i zablokuj ruch. W chaosie przejdziesz na drugą stronę.",
     "nextSceneId": 4,
     "requiredItems": ["TRANSPORT"]
   },
   {
     "id": 5,
-    "description": "Wciśnij się pieszo między naczepami, jakbyś stąd był. Kierowcy nie trącają swoich.",
+    "description": "Wciśnij się pieszo między naczepami. Boli, ale działasz. Jakiś kierowca rzuca Ci ogórka.",
     "nextSceneId": 5,
-    "stateEffect": "INJURED"
+    "stateEffect": "INJURED",
+    "itemReward": "CONSUMABLES"
   },
   {
     "id": 6,
-    "description": "Wyceluj bronią dalekiego zasięgu w górę wąwozu i poinformuj głosy, że zmieniły się warunki negocjacji.",
+    "description": "Wyceluj bronią dalekiego zasięgu w górę wąwozu. Warunki negocjacji właśnie się zmieniły.",
     "nextSceneId": 6,
     "requiredItems": ["WEAPON_LONG_RANGE"]
   },
   {
     "id": 7,
-    "description": "Zacznij mówić o cenach nawozów azotowych i prognozie opadów na żniwa. Lokalni zastygnąi wejdziesz spokojnie.",
+    "description": "Zacznij mówić o cenach nawozów azotowych. Lokalni miękną i wciągają Cię do grupy. Jeden daje kamizelkę.",
     "nextSceneId": 7,
-    "stateEffect": "DETERMINED"
+    "stateEffect": "DETERMINED",
+    "itemReward": "ARMOR"
   },
   {
     "id": 8,
-    "description": "Otwórz kabinę kombajnu kluczem. Przyszedłeś po prawdę, nie po zdjęcia.",
+    "description": "Otwórz kabinę kombajnu kluczem. W środku czeka coś ostrego i zatęchłego.",
     "nextSceneId": 8,
     "requiredItems": ["KEYS"],
     "itemReward": "WEAPON_MELEE"
   },
   {
     "id": 9,
-    "description": "Połóż ucho na blasze i rozkoduj stukot z rury wydechowej. Stary Bizon ma Ci coś do powiedzenia.",
+    "description": "Połóż ucho na blasze i rozkoduj stukot z rury wydechowej. Kombajn coś wypluwa z kieszeni.",
     "nextSceneId": 9,
-    "stateEffect": "DETERMINED"
+    "stateEffect": "DETERMINED",
+    "itemReward": "MAGICAL"
   },
   {
     "id": 10,
-    "description": "Aktywuj magiczny przedmiot. W tłumie odpustowym tylko nadnaturalne zmysły odróżnią łącznika od zwykłego zjadacza zapiekanek.",
+    "description": "Aktywuj magiczny przedmiot. Tylko nadnaturalne zmysły odróżnią łącznika od zjadacza zapiekanek.",
     "nextSceneId": 10,
     "requiredItems": ["MAGICAL"]
   },
   {
     "id": 11,
-    "description": "Wyciągnij pojazd na dno żwirowni i stań do wyścigu. Zwycięstwo albo gleba – tertium non datur.",
+    "description": "Wyciągnij pojazd na dno żwirowni i stań do wyścigu taczek. Zwycięstwo albo gleba.",
     "nextSceneId": 8,
     "requiredItems": ["TRANSPORT"]
   },
   {
     "id": 12,
-    "description": "Zrzuć na taczkarzy kamień z krawędzi skarpy i zaproponuj pokojowe negocjacje z pozycji góry.",
+    "description": "Zrzuć na taczkarzy kamień z krawędzi skarpy. Negocjacje z pozycji góry. Uznają Cię za swojego i dają prowiant.",
     "nextSceneId": 8,
-    "stateEffect": "DETERMINED"
+    "stateEffect": "CORRUPTED",
+    "itemReward": "CONSUMABLES"
   },
   {
     "id": 13,
-    "description": "Zakładasz zbroję, kładziesz się między rzędami buraków i czołgujesz w stronę słoika niewidzialny jak traktor bez świateł.",
+    "description": "Zakładasz zbroję i czołgujesz się między rzędami buraków. W błocie leży słoik i coś, co z niego wyciekło.",
     "nextSceneId": 8,
     "requiredItems": ["ARMOR"],
     "itemReward": "MAGICAL"
   },
   {
     "id": 14,
-    "description": "Odpalasz Dmuchawę do Liści na pełny regulator. Płonące trociny oświetlają pole. Efekt jest spektakularny i natychmiastowy.",
+    "description": "Odpalasz Dmuchawę do Liści. Trociny pochodzą z przeklętej olszy nad Łabuńką. Coś w Tobie pęka razem z dymem.",
     "nextSceneId": 8,
-    "stateEffect": "INJURED"
+    "stateEffect": "CURSED"
   },
   {
     "id": 15,
-    "description": "Chwytasz broń białą i ruszasz na Sołtysa. Widły contra Kosa. Stare jak Zawada starcie.",
+    "description": "Chwytasz broń białą i ruszasz na Sołtysa. Widły contra Kosa – starcie stare jak Zawada.",
     "nextSceneId": 9,
     "requiredItems": ["WEAPON_MELEE"]
   },

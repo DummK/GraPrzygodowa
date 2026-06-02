@@ -4,16 +4,15 @@
     "title": "Przystanek PKP Zawada – Peron Widmo",
     "description": "Wysiadasz z szynobusu relacji Rejowiec–Zawada, który skrzypiał tak, jakby koła były natłuszczone smalcem z wiadra po śledziach. Peron wita Cię ciszą, rdzą i rozsypanym nawozem mineralnym. Przy ławce leży piramida z butelek kaucyjnych ułożona przez kogoś z wyraźnym talentem artystycznym i dużą ilością czasu. Tory rozchodzą się w cztery strony. Na semaforze ktoś namalował sprejem: 'ZAWADA NIE PUSZCZA'. Czujesz od strony Zamościa zapach palonych liści i czegoś jeszcze. Gnoju. Zawsze gnoju.",
     "location": "RAILWAY_STATION",
-    "choices": [2, 3],
+    "choices": [1, 2, 3],
     "isEnding": false
   },
   {
     "id": 2,
     "title": "Blokada na Krajowej 74",
-    "description": "DK74 to rzeka metalu i spalin ciągnąca się od Zamościa przez Zawadę w stronę granicy. Sznur ciężarówek z ukraińską rejestracją pędzi bez litości. Na poboczu facet w kombinezonie zbiera butelki kaucyjne z rowu z miną człowieka wykonującego ważną misję państwową. Na asfalcie widać ślady ciągnika i coś brązowego, co zdecydowanie nie jest błotem. Musisz się jakoś przeprawić na drugą stronę, zanim Cię wciągnie w tę rzekę stali.",
+    "description": "DK74 to rzeka metalu i spalin ciągnąca się od Zamościa przez Zawadę w stronę granicy. Sznur ciężarówek z ukraińską rejestracją pędzi bez litości. Na poboczu facet w kombinezonie zbiera butelki kaucyjne z rowu z miną człowieka wykonującego ważną misję państwową. Na asfalcie widać ślady ciągnika i coś brązowego, co zdecydowanie nie jest błotem. Musisz się jakoś przeprawić na drugą stronę.",
     "location": "MAIN_ROAD",
     "choices": [4, 5],
-    "requiredItems": ["TRANSPORT"],
     "isEnding": false
   },
   {
@@ -22,13 +21,12 @@
     "description": "Skręciłeś za stodołą Wojtka i wlazłeś między ściany z żółtej gliny. Lessowe wąwozy wokół Zawady mają po pięć metrów głębokości i pamięć co najmniej od 1967 roku. Z korzeni dębu wystaje lufa pistoletu na gwoździe skierowana prosto w Twoją twarz. Głos z góry, spokojny jak niedziela po obiedzie: 'Tu się nie chodzi bez zaproszenia, miastowy. Mamy tu swój regulamin.' Za głosem słychać brzęk – ktoś liczy butelki kaucyjne.",
     "location": "WAWOZ",
     "choices": [6, 7],
-    "requiredItems": ["WEAPON_LONG_RANGE"],
     "isEnding": false
   },
   {
     "id": 4,
     "title": "Relikt z Kółka Rolniczego",
-    "description": "Wchodzisz na teren starej bazy maszynowej – niegdyś serce Kółka Rolniczego Zawada, dziś królestwo rdzy i łopianu. Pod blaszaną wiatą stoi kombajn Bizon Z056, który wygląda jakby go ostatnio używano za Gierka i który od tamtej pory myśli. Z rury wydechowej wydobywa się rytmiczny stukot – alfabet Morse'a albo zawał silnika. Przy bramie stoi zasieki ze złożonych taczkowych kół i wóz z napisem kredą na boku: 'WSTĘP WZBRONIONY – GNÓJ W TOKU'.",
+    "description": "Wchodzisz na teren starej bazy maszynowej – niegdyś serce Kółka Rolniczego Zawada, dziś królestwo rdzy i łopianu. Pod blaszaną wiatą stoi kombajn Bizon Z056, który wygląda jakby go ostatnio używano za Gierka i który od tamtej pory myśli. Z rury wydechowej wydobywa się rytmiczny stukot – alfabet Morse'a albo zawał silnika. Przy bramie stoi zasieki ze złożonych taczkowych kół i wóz z napisem kredą: 'WSTĘP WZBRONIONY – GNÓJ W TOKU'.",
     "location": "AGRO_BASE",
     "choices": [8, 9],
     "requiredItems": ["KEYS"],
@@ -37,7 +35,7 @@
   {
     "id": 5,
     "title": "Odpustowy Szał przy Kościele Zawada",
-    "description": "Trafiłeś na odpust parafii pw. Świętej Trójcy. Klimat jak z 1987, tylko telefony inne. Przy straganie z Wedlowskimi landrynkami stoi facet z wąsem, który patrzy na Ciebie o jeden sekund za długo. To musi być łącznik. Tłum handluje, modli się i kłóci o cenę ogórków jednocześnie. Na stole obok księdza leżą: pistolet na kulki, butelki kaucyjne zebrane na tacę i wielka misa z kapustą. Musisz go namierzyć zanim zniknie w kolejce po zapiekankę z pieczarkami.",
+    "description": "Trafiłeś na odpust parafii pw. Świętej Trójcy. Klimat jak z 1987, tylko telefony inne. Przy straganie z Wedlowskimi landrynkami stoi facet z wąsem, który patrzy na Ciebie o jeden sekund za długo. To musi być łącznik. Tłum handluje, modli się i kłóci o cenę ogórków jednocześnie. Na stole obok księdza leżą: pistolet na kulki, butelki kaucyjne zebrane na tacę i wielka misa z kapustą.",
     "location": "CHURCH_SQUARE",
     "choices": [10],
     "requiredItems": ["MAGICAL"],
@@ -46,25 +44,23 @@
   {
     "id": 6,
     "title": "Bitwa o Żwirownię przy Łabuńce",
-    "description": "Stoisz na krawędzi ogromnej dziury w lessowej ziemi. Ktoś kiedyś wybrał tu żwir pod A2, ale Zawady nie dokopał. Teraz na dnie lokalny gang taczkarzy urządza nielegalne wyścigi taczek na czas. Kibice siedzą na wałku z gnoju, piją z butelek kaucyjnych i stoją po kasę. Nagroda: szacunek i klucz do magazynu przy stacji. Żeby stąd wyjść z honorem, musisz wygrać albo skończyć na dnie dosłownie.",
+    "description": "Stoisz na krawędzi ogromnej dziury w lessowej ziemi. Na dnie lokalny gang taczkarzy urządza nielegalne wyścigi na czas. Kibice siedzą na wałku z gnoju, piją z butelek kaucyjnych i stoją po kasę. Nagroda: szacunek i klucz do magazynu przy stacji. Żeby stąd wyjść z honorem, musisz wygrać albo skończyć na dnie dosłownie.",
     "location": "QUARRY",
     "choices": [11, 12],
-    "requiredState": ["DETERMINED"],
     "isEnding": false
   },
   {
     "id": 7,
     "title": "Nocne Manewry na Polach Buraczanych",
-    "description": "Ciemność nad Zawadą jest gęsta jak gnojówka w lipcu. Idziesz między rzędami buraków cukrowych i czujesz, że Lubelska ziemia pod stopami pamięta więcej niż mówi. Przed sobą widzisz trzy latarki przeczesujące pole. Szukają czegoś. Albo kogoś. W powietrzu wisi zapach melasy i mokrej gliny. Gdzieś z oddali dobiega brzęk – znowu ktoś liczy butelki. W tej wsi butelki kaucyjne to waluta, honor i testament jednocześnie.",
+    "description": "Ciemność nad Zawadą jest gęsta jak gnojówka w lipcu. Idziesz między rzędami buraków cukrowych i czujesz, że Lubelska ziemia pod stopami pamięta więcej niż mówi. Przed sobą widzisz trzy latarki przeczesujące pole. Szukają czegoś. Albo kogoś. W powietrzu wisi zapach melasy i mokrej gliny. Gdzieś z oddali dobiega brzęk – znowu ktoś liczy butelki.",
     "location": "BEET_FIELDS",
     "choices": [13, 14],
-    "requiredItems": ["ARMOR"],
     "isEnding": false
   },
   {
     "id": 8,
     "title": "Ostatnia Granica – Tablica 'Zamość 5 km'",
-    "description": "Jesteś przy tablicy. Blacha z nazwą wsi wygięta, przestrzelona z wiatrówki co najmniej siedem razy. Za nią – wolność, asfalt i sklep z prawdziwą kawą. Przed Tobą jednak stoi Sołtys Ryszard, obleczony w pancerz z blachy trapezowej przykręconej do roboczej kurtki śrubami M12. W prawej dłoni trzyma Widły Piekielnego Gnoju, w lewej – pęk kluczy od całej gminy. Za nim ustawili się w szeregu: brat sołtysa, szwagier brata i pies który kiedyś ugryzł listonosza. Sołtys spokojnie cedzi: 'Z Zawady się nie wyjeżdża. Takie jest prawo.'",
+    "description": "Jesteś przy tablicy. Blacha z nazwą wsi wygięta, przestrzelona z wiatrówki co najmniej siedem razy. Za nią – wolność, asfalt i sklep z prawdziwą kawą. Przed Tobą stoi Sołtys Ryszard, obleczony w pancerz z blachy trapezowej przykręconej do roboczej kurtki śrubami M12. W prawej dłoni trzyma Widły Piekielnego Gnoju, w lewej – pęk kluczy od całej gminy. Za nim ustawili się: brat sołtysa, szwagier brata i pies który kiedyś ugryzł listonosza. Sołtys cedzi spokojnie: 'Z Zawady się nie wyjeżdża. Takie jest prawo.'",
     "location": "VILLAGE_EXIT",
     "choices": [15, 16],
     "isEnding": false

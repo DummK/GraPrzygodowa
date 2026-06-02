@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Legenda z Zawady",
-    "description": "Twoje imię krąży po gminie szybciej niż plotka o nowym sołtysie. Każda babcia przy GS-ie wie, co zrobiłeś. Słup ogłoszeniowy przy kościele wita Cię własnoręcznie napisanym afiszem. Zostajesz. Zawada postanowiła Cię zaakceptować, co w praktyce oznacza, że możesz teraz zbierać butelki kaucyjne bez pytania o pozwolenie.",
+    "description": "Twoje imię krąży po gminie szybciej niż plotka o nowym sołtysie. Każda babcia przy GS-ie wie, co zrobiłeś. Słup ogłoszeniowy przy kościele wita Cię własnoręcznie napisanym afiszem. Zostajesz. Zawada postanowiła Cię zaakceptować – możesz teraz zbierać butelki kaucyjne bez pytania o pozwolenie.",
     "requiredState": ["DETERMINED"]
   },
   {
@@ -13,20 +13,26 @@
   },
   {
     "id": 3,
-    "title": "Uciec do Zamościa",
+    "title": "Ucieczka na Roztocze",
     "description": "Wymknąłeś się przez pole rzepaku przed świtem, gdy Zawada jeszcze spała. Na rogatkach Zamościa zatrzymałeś się i odetchnąłeś. Wolność pachnie spalinami i kebabem z okienka przy Starym Mieście. W kieszeni masz jedną butelkę kaucyjną na pamiątkę. Czasem śni Ci się stukot kombajnu.",
     "requiredItems": ["TRANSPORT"]
   },
   {
     "id": 4,
     "title": "Wchłonięty przez Wieś",
-    "description": "Rany były zbyt głębokie – nie te od wideł, te od Zawady. Zostałeś. Masz teraz kawałek pola przy Łabuńce, trochę gnoju i sąsiadów, którzy wiedzą o Tobie wszystko. Butelki kaucyjne same zaczęły się zbierać przy płocie. Nie pytasz dlaczego.",
+    "description": "Rany były zbyt głębokie – nie te od wideł, te od Zawady. Zostałeś. Masz teraz kawałek pola przy Łabuńce, trochę gnoju i sąsiadów którzy wiedzą o Tobie wszystko. Butelki kaucyjne same zaczęły się zbierać przy płocie. Nie pytasz skąd.",
     "requiredState": ["INJURED"]
   },
   {
     "id": 5,
     "title": "Skażony Lokalnym Klimatem",
-    "description": "Coś w Tobie zmieniło się na polach przy Zawadzie. Mówisz teraz przez nos, wiesz co znaczy 'wybiórka' i kłócisz się o cenę skupu buraków z obcymi. Zamość patrzy na Ciebie podejrzliwie. Zawada patrzy z uznaniem. Nie wiesz już, z której strony tablicy stoisz.",
+    "description": "Coś w Tobie zmieniło się gdy rzucałeś kamieniami na dnie żwirowni. Mówisz teraz przez nos, wiesz co znaczy 'wybiórka' i kłócisz się o cenę skupu buraków z obcymi. Zamość patrzy na Ciebie podejrzliwie. Zawada patrzy z uznaniem. Nie wiesz już, z której strony tablicy stoisz.",
     "requiredState": ["CORRUPTED"]
+  },
+  {
+    "id": 6,
+    "title": "Przeklęty Dymem z Łabuńki",
+    "description": "Trociny z przeklętej olszy zrobiły swoje. Widzisz teraz duchy traktorzystów z lat sześćdziesiątych sunące między rzędami buraków. Nie możesz wyjść z Zawady, bo nie pamiętasz po co chciałeś. Sołtys Ryszard mówi, że to mu się już zdarzyło. Wskazuje na trzech starców przy stodole. Też próbowali.",
+    "requiredState": ["CURSED"]
   }
 ]
